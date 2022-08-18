@@ -66,7 +66,7 @@ if __name__ == "__main__":
         def print_handler(address, *args):
             #print(f"{address}: {args}")
 
-            if address == "/avatar/parameters/chattext" and not args == 0:
+            if address == "/avatar/parameters/chattext" and int(re.sub(r"\D", "", str(args))) != 0:
                 client.send_message("/chatbox/input", [temp[int(re.sub(r"\D", "", str(args)))], True])
 
                 # /chatbox/input string bool で渡す
