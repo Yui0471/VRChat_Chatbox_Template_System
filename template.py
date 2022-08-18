@@ -1,14 +1,14 @@
 template = {
     # 0は予約済み
     # 今のところASCIIしか使えない
-    # UTF-8に対応するらしい
+    # UTF-8は後ほど対応するらしい
 
-    1 : "こんにちは",
-    2 : "お疲れさまでした",
-    3 : "移動しませんか？",
-    4 : "hoge",
+    1 : "test",
+    2 : "test2",
+    3 : "hoge",
+    4 : "hogehoge",
     5 : "piyo",
-    6 : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    6 : "piyopiyo"
     
     # 255まで増やせる
 
